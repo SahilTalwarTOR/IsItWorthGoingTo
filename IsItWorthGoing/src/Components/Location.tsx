@@ -35,14 +35,21 @@ export class Location {
         return this.country;
     }
 
-    getTemperature() {
+    async getTemperature() {
         let data;
+        try {
         var request = {
             method: 'GET',
         };
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${this.lat}&lon=${this.lon}&appid=${apiKey2}&units=metric`, request)
-        .then(response => response.json())
-        .then(result => {return result.weather.feels_like})
-        .catch(error => console.log('error', error));
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${this.lat}&lon=${this.lon}&appid=${apiKey2}&units=metric`, request)
+        if(!response.ok) {
+            throw new Error("HTTP ERROR");
+        }
+        const result = await response.json();
+        return result.main.feels_like;
+    } catch(error) {
+        console.error("Error fetching, ", error);
+        throw error;
     }
+}
 }

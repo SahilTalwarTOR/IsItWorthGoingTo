@@ -46,17 +46,32 @@ function Search() {
     }
 
     const createList = (locationObj : Location, num) => {
-        const dropdownList = document.getElementById("appendObj");
+       /* const dropdownList = document.getElementById("appendObj");
         const listElement = `<li>
-        <a id=${num} onclick={printTemp()} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">${locationObj.getCity() + ", " + locationObj.getState() + ", " + locationObj.getCountry()}</a>
+        <a id=${num} onclick={printTemp} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">${locationObj.getCity() + ", " + locationObj.getState() + ", " + locationObj.getCountry()}</a>
         </li>`
         // This above isn't actually working how I want it to, we have to individually rebuilt this listElement and set the .onClick's etc on our own. Revisit this
         dropdownList.innerHTML += listElement;
+        */
+
+    const dropdownList = document.getElementById("appendObj");
+    const listElement = document.createElement("li");
+    const linkElement = document.createElement("a");
+
+    linkElement.id = `${num}`;
+    linkElement.className = "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white";
+    linkElement.textContent = `${locationObj.getCity()}, ${locationObj.getState()}, ${locationObj.getCountry()}`;
+    linkElement.href = "#";
+    linkElement.onclick = (event) => printTemp(event); // Attach handler
+
+    listElement.appendChild(linkElement);
+    dropdownList.appendChild(listElement);
     }
 
     const printTemp = (event: React.MouseEvent<HTMLAnchorElement>) => {
-        const getId = event.currentTarget.id;
-        console.log("Requesting information for id of: " + getId);
+        const getId = parseInt(event.currentTarget.id);
+        console.log("Accessing " + arr1[getId].getCity());
+        console.log(arr1[getId].getTemperature());
     }
 
 
