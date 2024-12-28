@@ -1,0 +1,292 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "old_name": "City of Halifax",
+                "country": "Canada",
+                "country_code": "ca",
+                "state": "Nova Scotia",
+                "county": "Halifax County",
+                "city": "Halifax",
+                "municipality": "Halifax Regional Municipality",
+                "lon": -63.5859487,
+                "lat": 44.648618,
+                "state_code": "NS",
+                "result_type": "city",
+                "formatted": "Halifax, NS, Canada",
+                "address_line1": "Halifax, NS",
+                "address_line2": "Canada",
+                "category": "administrative",
+                "timezone": {
+                    "name": "America/Halifax",
+                    "offset_STD": "-04:00",
+                    "offset_STD_seconds": -14400,
+                    "offset_DST": "-03:00",
+                    "offset_DST_seconds": -10800,
+                    "abbreviation_STD": "AST",
+                    "abbreviation_DST": "ADT"
+                },
+                "plus_code": "87PRJCX7+CJ",
+                "plus_code_short": "X7+CJ Halifax, Halifax County, Canada",
+                "rank": {
+                    "importance": 0.5857392838684597,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "full_match"
+                },
+                "place_id": "511ed1f35d00cb4fc05968cc24ea05534640f00101f9017abc8a0000000000c00208"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.5859487,
+                    44.648618
+                ]
+            },
+            "bbox": [
+                -63.7226567,
+                44.581167,
+                -63.5427496,
+                44.7112114
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "Canada",
+                "country_code": "ca",
+                "region": "Centre-du-Québec",
+                "state": "Quebec",
+                "county": "L'Érable",
+                "city": "Sainte-Sophie-d'Halifax",
+                "lon": -71.7078757,
+                "lat": 46.1539422,
+                "state_code": "QC",
+                "result_type": "city",
+                "formatted": "Sainte-Sophie-d'Halifax, QC, Canada",
+                "address_line1": "Sainte-Sophie-d'Halifax, QC",
+                "address_line2": "Canada",
+                "category": "administrative",
+                "timezone": {
+                    "name": "America/Toronto",
+                    "offset_STD": "-05:00",
+                    "offset_STD_seconds": -18000,
+                    "offset_DST": "-04:00",
+                    "offset_DST_seconds": -14400,
+                    "abbreviation_STD": "EST",
+                    "abbreviation_DST": "EDT"
+                },
+                "plus_code": "87RC573R+HR",
+                "rank": {
+                    "importance": 0.40825703358914917,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "full_match"
+                },
+                "place_id": "518548e1d54ded51c059b63cc560b4134740f00101f901e9e97a0000000000c00208"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.7078757,
+                    46.1539422
+                ]
+            },
+            "bbox": [
+                -71.8170513,
+                46.0871653,
+                -71.6309493,
+                46.2242477
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "United States",
+                "country_code": "us",
+                "state": "Vermont",
+                "county": "Windham County",
+                "city": "Halifax",
+                "postcode": "05358",
+                "lon": -72.74429764138142,
+                "lat": 42.7822864,
+                "state_code": "VT",
+                "result_type": "postcode",
+                "formatted": "Halifax, VT 05358, United States of America",
+                "address_line1": "Halifax, VT 05358",
+                "address_line2": "United States of America",
+                "category": "administrative",
+                "timezone": {
+                    "name": "America/New_York",
+                    "offset_STD": "-05:00",
+                    "offset_STD_seconds": -18000,
+                    "offset_DST": "-04:00",
+                    "offset_DST_seconds": -14400,
+                    "abbreviation_STD": "EST",
+                    "abbreviation_DST": "EDT"
+                },
+                "plus_code": "87J9Q7J4+W7",
+                "rank": {
+                    "importance": 0.3718335794705361,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "full_match"
+                },
+                "place_id": "51480e9392a22f52c059830df4f521644540f00101f901cbc71e0000000000c0020792030830353335382b7573"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.74429764138142,
+                    42.7822864
+                ]
+            },
+            "bbox": [
+                -72.8069682,
+                42.7332541,
+                -72.6806288,
+                42.8291433
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "United Kingdom",
+                "country_code": "gb",
+                "state": "England",
+                "county": "West Yorkshire",
+                "city": "Calderdale",
+                "town": "Halifax",
+                "postcode": "HX1 1TH",
+                "lon": -1.8604874,
+                "lat": 53.7229229,
+                "state_code": "ENG",
+                "name": "Halifax",
+                "result_type": "postcode",
+                "formatted": "Halifax (Calderdale), HX1 1TH, United Kingdom",
+                "address_line1": "Halifax (Calderdale)",
+                "address_line2": "HX1 1TH, United Kingdom",
+                "category": "populated_place",
+                "timezone": {
+                    "name": "Europe/London",
+                    "offset_STD": "+00:00",
+                    "offset_STD_seconds": 0,
+                    "offset_DST": "+01:00",
+                    "offset_DST_seconds": 3600,
+                    "abbreviation_STD": "GMT",
+                    "abbreviation_DST": "BST"
+                },
+                "plus_code": "9C5WP4FQ+5R",
+                "rank": {
+                    "importance": 0.49671253084794065,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "full_match"
+                },
+                "place_id": "51cfeb996f8ec4fdbf59c683d2bc88dc4a40f00103f901ee74970100000000c0020792030a485831203154482b6762"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.8604874,
+                    53.7229229
+                ]
+            },
+            "bbox": [
+                -1.9004874,
+                53.6829229,
+                -1.8204874,
+                53.7629229
+            ]
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "United States",
+                "country_code": "us",
+                "state": "Virginia",
+                "county": "Halifax County",
+                "city": "Halifax",
+                "town": "Halifax",
+                "lon": -78.9287299,
+                "lat": 36.7661444,
+                "state_code": "VA",
+                "result_type": "city",
+                "formatted": "Halifax (Halifax), VA, United States of America",
+                "address_line1": "Halifax (Halifax), VA",
+                "address_line2": "United States of America",
+                "category": "administrative",
+                "timezone": {
+                    "name": "America/New_York",
+                    "offset_STD": "-05:00",
+                    "offset_STD_seconds": -18000,
+                    "offset_DST": "-04:00",
+                    "offset_DST_seconds": -14400,
+                    "abbreviation_STD": "EST",
+                    "abbreviation_DST": "EDT"
+                },
+                "plus_code": "8783Q38C+FG",
+                "plus_code_short": "+FG Halifax, Halifax County, United States",
+                "rank": {
+                    "importance": 0.35153779941178775,
+                    "confidence": 1,
+                    "confidence_city_level": 1,
+                    "match_type": "full_match"
+                },
+                "place_id": "514fd4884f70bb53c059bc010b0511624240f00101f9014128030000000000c00208"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9287299,
+                    36.7661444
+                ]
+            },
+            "bbox": [
+                -78.955155,
+                36.744259,
+                -78.905815,
+                36.781889
+            ]
+        }
+    ],
+    "query": {
+        "text": "Halifa",
+        "parsed": {
+            "city": "halifa",
+            "expected_type": "unknown"
+        }
+    }
+}
